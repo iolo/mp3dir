@@ -1,0 +1,26 @@
+{
+  "name": "mp3dir",
+  "version": "0.0.1",
+  "description": "simple mp3 directory organizer",
+  "author": "your-name <your@email>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./lib",
+    "test": "mocha --exit test/**.spec.js",
+    "coverage": "nyc npm test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "music-metadata": "^4.8.0"
+  }
+}
